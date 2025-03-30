@@ -1,0 +1,321 @@
+/* Navbar styles */
+body {
+  margin: 0;
+  padding-top: 70px; /* Adjust based on navbar height */
+}
+
+.navbar {
+  position: fixed; /* Fixes navbar to the top */
+  top: 0;
+  width: 100%;
+  z-index: 2000;   /* Ensure it appears above other content */
+}
+
+#height{
+  height: 450px;
+}
+
+.d-flex{
+  width: 315px;
+}
+
+.navbar1{
+  margin-bottom: 0%;
+}
+
+
+
+
+
+
+
+
+
+
+.carousel {
+  position: relative; /* Position for controls */
+  margin: auto; /* Center the carousel */
+  max-width: 800px; /* Max width for larger screens */
+  border-radius: 15px; /* Softer corners */
+  overflow: hidden; /* Prevent overflow */
+}
+
+.carousel-inner {
+  border-radius: 15px; /* Apply rounded corners to inner */
+}
+
+.carousel-item img {
+  border-radius: 15px; /* Softer image corners */
+  transition: transform 0.5s ease; /* Smooth zoom effect */
+  width: 100%; /* Ensure images take full width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.carousel-item:hover img {
+  transform: scale(1.05); /* Zoom effect on hover */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  filter: invert(1); /* White arrows */
+  z-index: -200px;
+
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for arrows */
+  border-radius: 50%; /* Circular background */
+}
+
+.carousel-control-prev-icon:active,
+.carousel-control-next-icon:active {
+  background-color: rgba(0, 0, 0, 0.8); /* Darker on active */
+}
+
+
+/* Add responsive behavior */
+@media (max-width: 768px) {
+  .carousel {
+      max-width: 100%; /* Full width on small screens */
+  }
+}
+
+
+
+        .btn2{
+          padding-left :15px;
+          padding-right :15px;
+          margin-right: 60px;
+          border-radius: 15px;
+          background-color:  #FFC107;;
+        }
+          
+            .btn1{
+              background-color:black;
+             color: aliceblue;
+              margin-top: 5px;
+            }
+          .btn1:hover{
+            background-color:aliceblue;
+           color: black;
+          }
+
+          .logo{
+            background-color:rgb(40, 82, 211);
+
+           }
+
+           .icon{
+            justify-content: center;
+           }
+
+          .bgimg{
+            background-image: url("./Components/img/head.png");
+            height: 200px;
+            background-repeat: no-repeat;
+            background-size :cover ;
+          
+          }
+
+          .video{
+            margin-top: 20px;
+            margin-bottom: 20px;
+            margin-left:40px;
+            margin-right:40px;
+            border: 20px solid rgb(247, 59, 59);
+             }
+
+          .footer{margin: 10px;
+            padding: 30px;
+            height: 300px;
+            color: aliceblue;
+            background-color: black;
+            gap: 80px;
+            justify-content: space-around;
+          }
+
+          .about{
+            opacity: 0.7;
+            background-image: url("https://images.pexels.com/photos/933964/pexels-photo-933964.jpeg");
+
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 800px;
+            
+        
+          }
+
+          .discount{
+              margin: 200px;
+              margin-top: 25px;
+              margin-bottom: 25px;
+              background-color:  rgb(247, 59, 59);
+          }
+
+
+          .login-page {
+            background: linear-gradient(to right, #74ebd5, #acb6e5); /* Stylish gradient background */
+            display: flex; /* Center content vertically */
+            align-items: center; /* Align items vertically */
+            justify-content: center; /* Center content horizontally */
+            margin-top: 0px;
+        }
+          .wrapper {
+            padding: 30px;
+            margin: 100px auto; /* Center the wrapper */
+            width: 350px;
+            border: 5px solid #4A90E2; /* Cool blue border */
+            background-color: #F7F9FC; /* Light background for contrast */
+            border-radius: 15px; /* Softer corners */
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1); /* Deeper shadow for a more lifted effect */
+        }
+        
+        form .input-box {
+            margin: 8px 0; /* Vertical margin for spacing */
+            border: 2px solid #4A90E2; /* Matching border color */
+            border-radius: 5px;
+            padding: 12px; /* Added padding for better usability */
+            font-size: 16px; /* Improved font size for readability */
+            transition: border-color 0.3s; /* Smooth transition */
+        }
+        
+        form .input-box:focus {
+            border-color: #007BFF; /* Change border color on focus */
+            outline: none; /* Remove default outline */
+        }
+        
+        form .remember-forget {
+            display: flex;
+            justify-content: space-between; /* Space around for better alignment */
+            margin-bottom: 15px;
+        }
+        
+        form button {
+            border-radius: 30px; /* Softer button edges */
+            width: 100%;
+            padding: 12px; /* Ample padding for a better button size */
+            background-color: #4A90E2; /* Cool blue background */
+            color: white; /* Text color */
+            border: none; /* No border */
+            font-size: 16px; /* Improved font size */
+            cursor: pointer; /* Pointer cursor on hover */
+            transition: background-color 0.3s, transform 0.2s; /* Smooth transitions */
+        }
+        
+        form button:hover {
+            background-color: #007BFF; /* Brighter blue on hover */
+        }
+        
+        form button:active {
+            transform: scale(0.95); /* Slightly shrink button on click */
+        }
+        
+          /* src/ConfirmPayment.css */
+.text-danger {
+  color: #dc3545;
+}
+/* src/Cart.css */
+.container {
+  padding: 20px;
+}
+
+.cart-items-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.cart-item {
+  display: flex;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.cart-item-image img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.cart-item-details {
+  flex: 1;
+}
+
+.cart-total {
+  margin-top: 20px;
+  font-weight: bold;
+}
+.footer{
+  display: flex;
+}
+
+
+.rating {
+  display: inline-flex;
+  direction: rtl;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.star {
+  color: gray;
+  transition: color 0.3s;
+}
+
+.star:hover,
+.star:hover ~ .star {
+  color: gold; /* Highlight on hover */
+}
+
+
+
+
+/* Card.css */
+/* .card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-title {
+  font-size: 1.5em;
+  color: #333;
+}
+
+.card-details {
+  color: #666;
+  font-size: 1em;
+} */
+
+/* App.css */
+/* .app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+} */
+
+
+
+
+
+
+
+  
+          

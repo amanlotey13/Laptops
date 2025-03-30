@@ -13,7 +13,7 @@ export default function Navbar() {
       <nav className="navbar navbar-expand-lg" style={{ zIndex: 1, backgroundColor: "rgb(40, 82, 211)" }}>
         <div className="container-fluid">
           <a className="navbar-brand ms-5" href="#">
-            <h2>𝓝𝓸𝓿𝓪𝓝𝓸𝓽𝓮𝓫𝓸𝓸𝓴𝓼 </h2>
+            <h2>𝓝𝓸𝓿𝓪𝓝𝓸𝓽𝓮𝓫𝓸𝓸𝓴𝓼 amanlotey</h2>
           </a>
           <button
             className="navbar-toggler"
